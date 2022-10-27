@@ -5,7 +5,7 @@ plugins {
     application
 }
 
-group = "org.example"
+group = "org.icyjam"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -14,6 +14,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.apache.jena:apache-jena-libs:4.6.1")
+    implementation("edu.stanford.protege:protege-editor-owl:5.5.0")
+    implementation("edu.stanford.protege:protege-editor-core:5.5.0")
+    implementation("edu.stanford.protege:protege-common:5.5.0")
 }
 
 tasks.test {
