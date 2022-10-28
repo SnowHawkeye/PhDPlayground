@@ -1,7 +1,7 @@
 /*
 Tutorial link: https://jena.apache.org/tutorials/rdf_api.html
  */
-package tutorials
+package tutorials.jena_rdf
 
 import org.apache.jena.rdf.model.*
 import org.apache.jena.riot.Lang
